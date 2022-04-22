@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: rgb(1, 6, 6);
+    color: white;
+
+}
+
+header{
+    padding: 40px 100px ;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    color: aqua;
+    margin-bottom: 0.2rem;
+    text-decoration: underline;
+}
+
+#new-task-form{
+    display: flex;
+
+}
+
+#new-task-input{
+    background-color: rgb(64, 5, 77);
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-left: 250px;
+    margin-top: 40px;
+    color: rgb(230, 217, 221);
+    font-size: 35px;
+
+}
+
+#new-task-submit{
+    color: dark purple;
+    font-size: 25px;
+     font-weight: 400;
+     cursor: pointer;
+     margin-top: 50px;
+     margin-left: 150px;
+     background-color: rgb(158, 11, 153);
+
+}
+
+#new-task-submit:hover{
+    opacity: 0.5;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    color: aqua;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+
+main{
+        padding: 20px 10px ;
+        width: 500px;
+        margin: 1px auto;
+    
+}
+.task-list{
+    font-size: 20px;
+    font-weight: 400;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+h2{
+    margin-top: 0.1rem;
+}
+#tasks .task{
+   
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(88, 8, 99);
+  padding : 0.5rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+#tasks .task .content{
+    flex: 1 1 0%;
+}
+
+#tasks .task .content .text{
+   color: purple;
+   font-size: 1.125rem;
+   font-weight: 700;
+   width: 95%;
+   display: block;
+   
+}
+
+#tasks .task .actions{
+    display: flex;
+    margin: 0 -0.5rem;
+}
+
+.task .actions button{
+    cursor: pointer;
+    margin: 0 0.5rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+
+.task .actions .edit{
+    color: rgb(196, 51, 123);
+    
+}
+.task1 .task2 .delete{
+    color: rgb(128, 5, 5);
+
+}
